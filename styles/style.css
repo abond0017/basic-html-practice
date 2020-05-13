@@ -1,7 +1,104 @@
-a {
-  text-decoration: none;
+
+#main-body {
+  border: 1px solid black;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  height: 100vh;
+  width: 100%;
+}
+#pagetitle {
+  font-size: 14px;
+  font-family: "Comic Sans MS";
+  text-align: center;
+}
+header {
+  background-color: #c1c1c1;
+  text-align: center;
+  border: 1px solid black;
+  height: 15%
+}
+#all-fields {
+  width: 100%;
+  display: flex;
+}
+#buttons {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+
 }
 
-a img {
-  width: 50px;
+#search-field {
+  width: 30%;
+  height: 30%;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  display: flex;
+
+}
+
+#brett-field {
+  width: 65%;
+  height: 30%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  position: relative;
+  
+}
+
+#brett-field input {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+#buttons img {
+  width: 20%;
+
+}
+
+#search-input {
+  position: absolute;
+  width: 80%;
+
+
+}
+
+#search-input input {
+  position: absolute;
+  width: 65%;
+  border-radius: 10px;
+  border: 1px solid black;
+
+}
+
+#search-input img {
+  width: 15px;
+  position: absolute;
+  padding: 5px;
+  }
+
+#contact {
+  font-size: 10px;
+  font-family: "Comic Sans MS";
+  margin-top: 15px;
+  margin-left: 20px;
+
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #c1c1c1;
+  border: 1px solid black;
 }
