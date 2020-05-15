@@ -1,28 +1,40 @@
 
-#main-body {
-  border: 1px solid black;
+body {
   margin-top: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
+}
+
+#main-body {
+  border: 1px solid black;
   height: 100vh;
   width: 100%;
+
 }
+
 #pagetitle {
   font-size: 14px;
   font-family: "Comic Sans MS";
   text-align: center;
+
 }
+
 header {
   background-color: #c1c1c1;
   text-align: center;
-  border: 1px solid black;
-  height: 15%
+  border-bottom: 1px solid black;
+  height: 15%;
+  min-height: 100px;
+
 }
+
 #all-fields {
   width: 100%;
   display: flex;
+
 }
+
 #buttons {
   width: 200px;
   height: 200px;
@@ -50,7 +62,7 @@ header {
   margin-bottom: 25px;
   display: flex;
   position: relative;
-  
+
 }
 
 #brett-field input {
@@ -58,6 +70,7 @@ header {
   border: 1px solid black;
   border-radius: 3px;
   margin-right: 5px;
+
 }
 
 #buttons img {
@@ -68,8 +81,6 @@ header {
 #search-input {
   position: absolute;
   width: 80%;
-
-
 }
 
 #search-input input {
@@ -84,13 +95,68 @@ header {
   width: 15px;
   position: absolute;
   padding: 5px;
-  }
 
-#contact {
-  font-size: 10px;
+}
+
+#allfields {
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 15px;
+
+}
+
+form {
+  font-size: 14px;
   font-family: "Comic Sans MS";
-  margin-top: 15px;
-  margin-left: 20px;
+  margin: 25px auto;
+
+}
+
+#formboxes {
+  width: 100%;
+  display: flex;
+
+}
+
+form p {
+  font-size: 25px;
+
+}
+
+form label input {
+  width: 300px;
+  margin-left: 15px;
+  margin-top: 25px;
+  height: 25px;
+  border: 1px solid black;
+}
+
+#checkboxarea {
+  display: flex;
+  margin: 0 auto;
+  width: 400px;
+}
+  
+#check-boxes {
+  font-family: "Comic Sans MS";
+  width: 100%;
+  display: flex;
+  
+}
+
+#check-box label {
+ display: flex;
+ margin-left: 5px;
+ width: 350px;
+}
+
+button {
+  border: 1px solid black;
+  box-shadow: 2px 2px;
+  background: white;
+  margin: 20px auto;
+  display: flex;
+  font-family: "Comic Sans MS";
 
 }
 
@@ -98,7 +164,7 @@ footer {
   position: fixed;
   bottom: 0;
   height: 10%;
-  width: 100%;
+  width: 100vw;
   background-color: #c1c1c1;
-  border: 1px solid black;
+  border-top: 1px solid black;
 }
